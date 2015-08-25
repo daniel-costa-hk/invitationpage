@@ -1,4 +1,4 @@
-## Generic Invitation Page
+# Generic Invitation Page
 An example of a social viral invitation page for a generic product.
 # Description
 This is a simple template for a generic invitation page with an email input text. 
@@ -7,21 +7,23 @@ product to other friends through social media widgets (Facebook & Twitter).
 All data is stored in mongoDb with a simple friendly admin interface.
 
 
-# Frontpage
+# Snapshots
+
+### Frontpage
 
 http://invitationpage.url/registrations
 
 ![alt tag](https://raw.github.com/daniel-costa-hk/invitationpage/master/public/images/snapshots/invitepage_frontpage.png)
 
 
-# Admin
+### Admin
 
 http://invitationpage.url/
 
 ![alt tag](https://raw.github.com/daniel-costa-hk/invitationpage/master/public/images/snapshots/invitepage_admin.png)
 
 
-## Motivation
+# Motivation
 An example of integrating traditional marketing viral pages with new techkits.
 
 # Installation
@@ -37,7 +39,7 @@ you’re running!
 ### Windows
 Not really sure :_)
 
-## License
+# License
 
 GNU General Public License
 
