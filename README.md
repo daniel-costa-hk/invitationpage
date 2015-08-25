@@ -18,7 +18,7 @@ http://invitationpage.url
 
 ### Admin
 
-http://invitationpage.url/
+http://invitationpage.url/registrations
 
 ![alt tag](https://raw.github.com/daniel-costa-hk/invitationpage/master/public/images/snapshots/invitepage_admin.png)
 
