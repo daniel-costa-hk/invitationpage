@@ -1,0 +1,62 @@
+/**
+* 
+* Mobile tweaks
+*/
+
+@media only screen and  (max-width: 1200px) {
+	.row-1 .content h3.title {
+		font-size: 60px;
+	}
+}
+
+@media screen and (min-width: 440px)  and (max-width: 730px) {
+  .row-1 .content h3.title {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 320px)  and (max-width: 440px) {
+  .row-1 .content {
+    height:290px;
+    background-size:100%;
+    h3.title {
+      font-size: 43px;
+      width:100%;
+    }
+    .people-count {
+      margin-top:10px;
+    }
+  }
+  .register-widget {
+    width:90%;
+    margin:30px 0px 0px 0px;
+    #signupButton {
+      padding:15px 10px 15px 10px;
+    }
+  }
+}
+
+/** 
+* Iphone 5S and below.
+*/
+@media screen and (max-width: 320px) {
+  .row-1 {
+    .content {
+      .counter {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .people-count {
+        margin-top:55px;
+        .number-users {
+          font-size: 30px;
+          text-shadow: none;
+        }
+        .number-user-text {
+          font-size: 25px;
+          margin-top:0px;
+        }
+      }
+    }
+  }
+} 

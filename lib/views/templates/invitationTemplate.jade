@@ -1,0 +1,10 @@
+div(style='width: 300px; margin: 0 auto')
+  div(style='text-align: center')
+    img(src='#{siteLogo}')
+  | Hi #{name},
+  p
+    | Welcome to #{siteName}! You can now vote on submissions and leave comments.
+    | In order for your submissions to be public, please confirm your account by
+    | clicking the confirmation link below
+  div(style='background-color: #fafafa; border: 1px solid #ddd; border-right: none; border-left: none; display: block; font-weight: bold; line-height: 35px; height: 35px; text-align: center; width:100%;')
+    a(href= #{confirmationLink}) Confirm your account

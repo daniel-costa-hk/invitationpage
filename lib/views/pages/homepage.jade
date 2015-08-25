@@ -1,0 +1,46 @@
+extends ./../layout
+
+block body
+  .main
+    .row.row-1
+      .content
+        h3.title Your cool line here.
+        div.counter
+         
+        div.people-count 
+          span.number-users #{numberUsers} 
+          span.number-user-text users & counting
+    .row.row-2
+      .content
+        .register-widget
+          div.signupbox
+            if confirmed
+              .invite-text
+                p You are in our list 
+                  span.user-confirmed #{confirmedUser}
+                
+              .invite-box
+                
+                div.fb-share-button(data-href="#{shareLink}")&attributes({'data-layout': 'button'})
+                div
+                  a.twitter-share-button(data-url="#{shareLink}")&attributes({'data-text': 'Product X: get yours now!', 'data-size': 'large', 'data-count':'none'})
+              
+              input(id='email', class="email_share" type='text',value='#{shareLink}',placeholder='Invite',name='email', disabled)
+              p.text-center Wanna share your love for 
+                span.aivvy-color.bold Product X 
+                span with your friends?
+
+            else  
+              p.start-text Say one more sentence here (if you want).
+              input(id='email', type='email',value='',placeholder='Email address',name='email')
+              div#signupButton Join Us
+              div.finished-message
+              #message-wrapper
+                .message
+
+            
+
+           
+
+
+    

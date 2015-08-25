@@ -1,0 +1,12 @@
+{
+  "port": 3000,
+  "greeting": "Hello development world",
+  "mongo_dbURI" : "mongodb://localhost/invitation",
+  "baseURL" : "http://localhost:3000",
+  "emailUser" : "user@gmail.com",
+  "emailPassword" : "invitationpassword",
+  "graylog": {
+    "host": "localhost",
+    "stdout": true
+  }
+}

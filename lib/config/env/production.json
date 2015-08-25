@@ -1,0 +1,12 @@
+{
+  "port": 8080,
+  "greeting": "Hello production world",
+  "mongo_dbURI" : "mongodb://localhost/invitation",
+  "baseURL" : "http://productionURL",
+  "emailUser" : "user@gmail.com",
+  "emailPassword" : "temppass",
+  "graylog": {
+    "host": "localhost",
+    "stdout": false
+  }
+}

@@ -1,0 +1,26 @@
+extends ./layout
+
+block body
+  .main.center
+    .section-description
+      .section-description-right
+        h3  Be ready to be one of our first testers
+        .section-launch-counter
+        div 
+        .section-count
+        p 1002 users are with us
+      .headphones
+        div 
+      
+
+    .section-register
+      .form-section
+      div.signupbox
+      form(id="inviteForm" name="signup", action='/invitation/signup',method='post')
+        input(id='email',type='email',value='',placeholder='@',name='email')
+      
+      input(type="button", value="SignUp", id="signupButton")
+
+
+
+    

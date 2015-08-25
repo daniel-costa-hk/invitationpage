@@ -1,0 +1,25 @@
+{
+  "name": "Invitation Page",
+  "version": "1.0.0",
+  "description": "A simple invitation page",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node bin/preinstall.js",
+    "start": "nodemon .",
+    "production": "NODE_ENV=production nodemon .",
+    "test": "tape \"lib/*/test/*-test.js\""
+  },
+
+  "keywords": ["invitation", "aivy"],
+  "author": "Daniel Costa <mail@danielcosta.hk>",
+  "license": "MIT",
+
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.1", 
+    "tape": "^3.0.0",
+  }
+
+}

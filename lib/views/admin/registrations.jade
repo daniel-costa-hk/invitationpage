@@ -1,0 +1,23 @@
+extends ./../layout
+
+block body
+  #admin
+    .main
+      .menu
+        Menu
+      .content
+        div.headerUsers Admin :: Current Subscriptions
+        table.users
+          tr.users-header
+            td Email
+            td Authenticated
+            td Invited
+            td Number Invitations
+            td Created Date
+          each user in users
+            tr
+              td.email #{user.email} 
+              td.authenticated #{user.isAuthenticated}
+              td.invited #{user.usersInfo}
+              td.invited #{user.numberInvitations}
+              td.invited #{user.timeStamp}

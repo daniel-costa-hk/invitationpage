@@ -1,0 +1,52 @@
+doctype html
+html(lang='en')
+  head
+    title Invitation Page
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='Invitation Page')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    meta(property="og:title", content="Product X")
+    meta(property="og:type", content="product")
+    meta(property="og:url",content="http://your.url.com")
+    meta(property="og:site_name", content="Invitation Page")
+    meta(property="og:image" content="http://your.url.com/images/generic_headphones_share.jpg")
+    meta(property="og:description",content="I just reserved Product X today. Get yours.")
+
+    meta(name="twitter:card" content="Product X")
+    meta(name="twitter:site" content="Invitation Page")
+
+    link(href='css/app.css', rel='stylesheet')
+  body
+    //if lt IE 8
+      p.chromeframe.
+        You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade your browser</a>
+        to improve your experience.
+    .header
+      .row
+        .container
+          a.logo(href="#{shareLink}")
+            include components/logo.html
+    block body
+
+    div.fb-root
+    .footer
+      .container
+        p.copyright Copyright (c) Product X
+
+  script(src="http://code.jquery.com/jquery-1.11.3.min.js")
+  script(src="js/jquery.countdown.min.js")
+  script(src="js/frontpage.js")
+
+  // bottom
+  if confirmed
+    include components/facebook.html
+    include components/twitter.html
+
+
+
+  
+
+    
