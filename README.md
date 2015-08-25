@@ -32,8 +32,8 @@ An example of integrating traditional marketing viral pages with new techkits.
 
 Install [Node.JS](https://nodejs.org/)
 
-* <sudo> node bin/preinstall.js
-* <sudo> npm install -g nodemon
+* (sudo) node bin/preinstall.js
+* (sudo) npm install -g nodemon
 * nodemon app.js
 * navigate to localhost:3000  (listening on port 3000 by default)
 
