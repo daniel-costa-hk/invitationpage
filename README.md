@@ -1,7 +1,6 @@
-# Generic Invitation Page  (MongoDB + Node.JS + Express + Jade + JQuery)
+# Product Launch Invitation Page
 An example of a social viral invitation page for a generic product.
 
-</br>
 # Tech Kit
 MongoDB
 Node.Js + Express + Jade
