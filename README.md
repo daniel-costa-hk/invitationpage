@@ -11,7 +11,7 @@ All data is stored in mongoDb with a simple friendly admin interface.
 
 ### Frontpage
 
-http://invitationpage.url/registrations
+http://invitationpage.url
 
 ![alt tag](https://raw.github.com/daniel-costa-hk/invitationpage/master/public/images/snapshots/invitepage_frontpage.png)
 
@@ -30,11 +30,13 @@ An example of integrating traditional marketing viral pages with new techkits.
 
 ### Mac & Linux
 Install Node.js
-<sudo> node bin/preinstall.js
-<sudo> npm install -g nodemon
-nodemon app.js
-go to localhost:3000
-you’re running!
+
+* <sudo> node bin/preinstall.js
+* <sudo> npm install -g nodemon
+* nodemon app.js
+* navigate to localhost:3000  (listening on port 3000 by default)
+
+> you’re running!
 
 ### Windows
 Not really sure :_)
