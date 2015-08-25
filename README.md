@@ -2,9 +2,9 @@
 An example of a social viral invitation page for a generic product.
 
 # Tech Kit
-MongoDB
-Node.Js + Express + Jade
-Jquery
+MongoDB <br />
+Node.Js + Express + Jade <br />
+Jquery <br />
 
 # Description
 This is a simple template for a generic invitation page with an email input text. 
