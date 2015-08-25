@@ -30,7 +30,7 @@ An example of integrating traditional marketing viral pages with new techkits.
 
 ### Mac & Linux
 
-Install [Node.JS](https://nodejs.org/)
+Install [Node.JS](https://nodejs.org/) <br />
 Install [Mongo.DB](https://www.mongodb.org/)
 * (sudo) mongod 
 * (sudo) node bin/preinstall.js
