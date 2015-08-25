@@ -38,7 +38,7 @@ Install [Mongo.DB](https://www.mongodb.org/)
 * nodemon app.js
 * navigate to localhost:3000  (listening on port 3000 by default)
 
-> you’re running!
+> You’re running! (If any issues, check the console for any errors.)
 
 > The application will create a user collection on Mongo DB.
 > Configure the settings in lib/config/development.json & lib/config/production.json
