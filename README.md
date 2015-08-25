@@ -29,7 +29,8 @@ An example of integrating traditional marketing viral pages with new techkits.
 # Installation
 
 ### Mac & Linux
-Install Node.js
+
+Install [Node.JS](https://nodejs.org/)
 
 * <sudo> node bin/preinstall.js
 * <sudo> npm install -g nodemon
