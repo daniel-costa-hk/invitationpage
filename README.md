@@ -31,13 +31,18 @@ An example of integrating traditional marketing viral pages with new techkits.
 ### Mac & Linux
 
 Install [Node.JS](https://nodejs.org/)
-
+Install [Mongo.DB](https://www.mongodb.org/)
+* (sudo) mongod 
 * (sudo) node bin/preinstall.js
 * (sudo) npm install -g nodemon
 * nodemon app.js
 * navigate to localhost:3000  (listening on port 3000 by default)
 
 > you’re running!
+
+> The application will create a user collection on Mongo DB.
+> Configure the settings in lib/config/development.json & lib/config/production.json
+
 
 ### Windows
 Not really sure :_)
@@ -46,7 +51,7 @@ Not really sure :_)
 
 GNU General Public License
 
-## Tech Kit
+# Tech Kit
 MongoDB
 Node.Js + Express + Jade
 Jquery
